@@ -1,0 +1,10 @@
+@use '../base/functions' as util;
+
+.layout-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+    gap: util.porcentagem(30px, 1045px);
+    height: 100%;
+}

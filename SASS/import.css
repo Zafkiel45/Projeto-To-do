@@ -1,0 +1,103 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.25em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+* {
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E6E6E6;
+}
+
+.layout-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20%;
+  gap: 2.8708133971%;
+  height: 100%;
+}
+
+.layout-side-bar {
+  width: 10vw;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.157);
+}
+
+.layout-main {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.layout-tasks {
+  width: 80vw;
+  height: 80vh;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgb(214, 211, 211), rgba(128, 128, 128, 0.749));
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.244);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+}
+
+.layout-task-item {
+  background-color: #E6E6E6;
+  width: 90%;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.16);
+}
+
+.layout-inputs {
+  display: flex;
+  width: 90%;
+  gap: 3%;
+}
+
+.layout-input-text {
+  width: 75%;
+}
+
+.module-button-input {
+  width: 90px;
+  height: 90px;
+}
+
+.module-input-task {
+  width: 100%;
+  height: 90px;
+  background-color: #E6E6E6;
+  border: none;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+.module-input-task::-moz-placeholder {
+  font-size: 25px;
+  position: relative;
+  top: -15px;
+}
+.module-input-task:-ms-input-placeholder {
+  font-size: 25px;
+  position: relative;
+  top: -15px;
+}
+.module-input-task::placeholder {
+  font-size: 25px;
+  position: relative;
+  top: -15px;
+}/*# sourceMappingURL=import.css.map */

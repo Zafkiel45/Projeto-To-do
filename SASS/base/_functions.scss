@@ -1,0 +1,10 @@
+@use 'SASS:math';
+
+@function convert($alvo, $contexto){
+    @return #{math.div($alvo, $contexto)}rem;
+}
+
+@function porcentagem($alvo, $contexto){
+    @return #{math.div($alvo, $contexto) * 100%};
+}
+
