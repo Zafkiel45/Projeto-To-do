@@ -13,14 +13,18 @@
 @use './layout/layout-task';
 @use './layout/layout-task-item';
 @use './layout/layout-inputs';
-@use './layout/layout-buttons';
-@use './layout/layout-input-text';
+@use './layout/layout-container-anotações';
+@use './layout/layout-taks-container';
+@use './layout/layout-task-individual';
 
 // module 
 
-@use './module/module-nav-itens';
-@use './module/module-blue';
-@use './module/module-green';
-@use './module/module-red';
 @use './module/module-button-input';
 @use './module/module-input-task';
+@use './module/module-svg-button';
+@use './module/module-anotações';
+@use './module/module-button-check';
+
+//outros 
+
+@use './geral';

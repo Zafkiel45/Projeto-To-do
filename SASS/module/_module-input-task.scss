@@ -5,9 +5,8 @@
     border: none;
     border-radius: 5px;
     padding-left: 30px;
+    font-size: 25px;
     &::placeholder {
         font-size: 25px;
-        position:relative;
-        top: -15px ;
     }
 }
