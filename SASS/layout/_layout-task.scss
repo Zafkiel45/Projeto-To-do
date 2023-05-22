@@ -1,8 +1,10 @@
 .layout-tasks {
-    width: 80vw;
-    height: 80vh;
-    border-radius: 10px;
-    background-image: linear-gradient(to bottom, rgb(214, 211, 211), rgba(128, 128, 128, 0.749));
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(40deg, #00E1FD, #FC007A);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.244);
     display: flex;
     flex-direction: column;

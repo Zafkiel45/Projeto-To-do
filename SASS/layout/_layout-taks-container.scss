@@ -1,8 +1,10 @@
 .layout-taks-container {
-    height: 100px;
-    width: 100%;
+    height: 125px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    border-bottom: 1px solid #808080;
+    border: 3px solid #9f9e9e;
+    border-radius: 1.25em;
+    margin: 6% auto;
 }

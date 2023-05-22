@@ -1,7 +1,16 @@
 .layout-task-item {
-    background-color: #E6E6E6;
+    background-color: #fefefe;
     width: 90%;
     height: 70%;
     border-radius: 10px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.16);
+    overflow: hidden scroll;
+    &::-webkit-scrollbar-thumb {
+        background-color: gray;
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar {
+        background-color: lightgray;
+        border-radius: 10px;
+        width: 15px;
+    }
 }

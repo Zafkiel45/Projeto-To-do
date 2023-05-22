@@ -73,40 +73,5 @@ button_remove.addEventListener('click', function(){
     addtask()
 }) 
 
-button_screen.addEventListener('click', () => {
-    if(body.fullscreenElement){
-        sairTelaCheia()
-    } else {
-        telaCheia()
-    }
-})
-
-function telaCheia() {
-    if (body.requestFullscreen) {
-        body.requestFullscreen();
-    } else if (body.mozRequestFullScreen) {
-        body.mozRequestFullScreen();
-    } else if (body.webkitRequestFullscreen) {
-        body.webkitRequestFullscreen();
-    } else if (body.msRequestFullscreen) {
-        body.msRequestFullscreen();
-    }
-}
-
-function sairTelaCheia() {
-    if (body.exitFullscreen) {
-        body.exitFullscreen();
-    } else if (body.mozCancelFullScreen) {
-        body.mozCancelFullScreen();
-    } else if (body.webkitExitFullscreen) {
-        body.webkitExitFullscreen();
-    } else if (body.msExitFullscreen) {
-        body.msExitFullscreen();
-    }
-}
-
-
-
-
 addtask()
 
